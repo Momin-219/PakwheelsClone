@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177992323042",
+    "project_id": "pakwheelsclone",
+    "storage_bucket": "pakwheelsclone.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177992323042:android:ea313980ea4a8f858933bb",
+        "android_client_info": {
+          "package_name": "com.example.pakwheelsclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxLsbz58TftGplNzLVFV3U4cOwJvG8pLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
