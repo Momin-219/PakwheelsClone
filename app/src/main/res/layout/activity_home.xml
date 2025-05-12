@@ -5,24 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Main content area -->
-    <LinearLayout
+    <!-- RecyclerView for car ads -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCarAds"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="16dp"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-        <TextView
-            android:id="@+id/homeText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Home - Pakwheels Clone"
-            android:textSize="24sp"
-            android:textStyle="bold"/>
-
-    </LinearLayout>
+        android:padding="8dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
     <!-- Bottom Navigation Bar -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -31,8 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         app:menu="@menu/bottom_nav_menu"
-        app:itemIconTint="@color/nav_item_colors"
-        app:itemTextColor="@color/nav_item_colors"
         app:labelVisibilityMode="labeled"/>
+        <!--app:itemIconTint="@color/nav_item_colors"
+        app:itemTextColor="@color/nav_item_colors"-->
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
